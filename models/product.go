@@ -30,8 +30,8 @@ type SearchProductParameter struct {
 	MinPrice float64 `json:"min_price"`
 	MaxPrice float64 `json:"max_price"`
 	Page     int     `json:"page"`
-	PageSize int     `json:"pageSize"`
-	OrderBy  string  `json:"orderBy"`
+	PageSize int     `json:"page_size"`
+	OrderBy  string  `json:"order_by"`
 	Sort     string  `json:"sort"`
 }
 
